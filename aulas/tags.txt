@@ -1,0 +1,14 @@
+<style> - de que arquivo o html vai puxar o estilo (css)
+<h1 - 6> - titulo que vai de 1 a 6, diminuindo conforme os números sobem
+<p> - parágrafo
+<span> - aplica um visual no texto, não quebra linha
+<br> - quebra linha
+<b> - 'bold', deixa o texto em negrito
+
+
+--------------------------------------------------------------------------------
+id - vai dentro da tag e 'seta' o identificador daquela tag **Não pode se 
+repetir** - para selecionar o id no css: #nome-do-id {}
+
+class - mesma função do id mas pode se repetir, a mesma tag pode ter um id e 
+uma ou mais classes - para selecionar a class no css: .nome-da-class {}
