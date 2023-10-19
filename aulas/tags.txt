@@ -1,12 +1,71 @@
-<style> - de que arquivo o html vai puxar o estilo (css)
-<h1 - 6> - titulo que vai de 1 a 6, diminuindo conforme os números sobem, sendo o h1 mais importante q o h2, h2 mais importante que o h3 etc...
-<p> - parágrafo
-<span> - aplica um visual no texto, não quebra linha
-<br> - quebra linha
-<b> - 'bold', deixa o texto em negrito
+########### MÉTODOS DISPLAY INLINE ###########
 
+<h1 - 6> => titulo que vai de 1 a 6, diminuindo conforme os números sobem, sendo o h1 mais importante q o h2, h2 mais importante que o h3 etc...
+
+<p> => parágrafo
+
+<span> => aplica um visual no texto, não quebra linha
+
+<br> => quebra linha
+
+<b> => 'bold', deixa o texto em negrito
+
+<strong> => faz a mesma função do <b>, mas ao ser lida por deficientes visuais a palavra será lida com mais ênfase (semântica)
+
+<i> => itálico
+
+<em> => também deixa em italico, mas tem ênfase na leitura para deficientes visuais (semântica)
+
+<a href=""> => coloca um link ou arquivo
+
+<img> => coloca 
+
+<del> => deleta o texto
+
+<ins> => insere o texto
+
+<s> => risca o texto
+
+<u> => underscore
+
+<small> => diminui o trecho
+
+<sup> => coloca o número elevado
+
+<sub> => coloca o numero como base
+
+<q> => faz uma citação
+
+<code> => coloca uma fonte monoespaçada, porém ignora quebras de linha e espaços extra
+
+<span> => conteiner
 
 --------------------------------------------------------------------------------
-id - vai dentro da tag e 'seta' o identificador daquela tag **Não pode se repetir** - para selecionar o id no css: #nome-do-id {}
+########### MÉTODOS DISPLAY BLOCK ###########
 
-class - mesma função do id mas pode se repetir, a mesma tag pode ter um id e uma ou mais classes - para selecionar a class no css: .nome-da-class {}
+<blockquote> => faz um bloco de citação formatado (não pode estar dentro de um parágrafo, mas pode ter um parágrafo dentro do mesmo)
+
+<hr> => cria uma linha
+
+<pre> => coloca o texto pre formatado, igual você escreveu no vscode
+
+<div> => conteiner semântico
+
+--------------------------------------------------------------------------------
+########### ATRIBUTOS ###########
+
+style => de que arquivo o html vai puxar o estilo (css)
+
+id => vai dentro da tag e 'seta' o identificador daquela tag **Não pode se repetir** - para selecionar o id no css: #nome-do-id {}
+
+class => mesma função do id mas pode se repetir, a mesma tag pode ter um id e uma ou mais classes - para selecionar a class no css: .nome-da-class {}
+
+target => seta se o link vai ser aberto na mesma guia ou em outra
+
+rel => qualifica links externos, ex: links patrocinados 
+
+alt => descrição para a imagem
+
+width / height => seta largura / altura da imagem
+
+cite => marca a fonte de onde a citação foi retirada
