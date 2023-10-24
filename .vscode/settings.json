@@ -9,7 +9,7 @@
   "editor.fontFamily": "Fira Code",
   "terminal.integrated.fontFamily": "",
   "editor.fontLigatures": true,
-  "editor.wordWrapColumn": 80,
+  "editor.wordWrapColumn": 60,
   "editor.wordWrap": "wordWrapColumn",
   "editor.formatOnSave": true,
   "editor.indentSize": "tabSize",
