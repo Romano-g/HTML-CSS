@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas em HTML</title>
+</head>
+
+<style>
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 400px;
+  }
+
+  table td,
+  table th {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+  }
+
+  table caption {
+    caption-side: bottom;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    margin: 5px 0;
+  }
+
+  tfoot td,
+  table th {
+    background: #ddd;
+  }
+
+  tfoot td {
+    font-style: italic;
+  }
+
+  .responsive-table {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+</style>
+
+<body>
+
+  <p></p>
+  <div class="responsive-table">
+    <table>
+      <caption>Descrição da Tabela</caption>
+      <thead>
+        <tr>
+          <th>Coluna1</th>
+          <th>Coluna2</th>
+          <th>Coluna3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Corpo1</td>
+          <td>Corpo2</td>
+          <td>Corpo3</td>
+        </tr>
+
+        <tr>
+          <td colspan="2" rowspan="2">Colspan + Rowspan</td>
+          <td>Corpo3</td>
+        </tr>
+
+        <tr>
+          <td>Corpo3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">TOTAL</td>
+        </tr>
+
+        <tr>
+          <td>R$692,50</td>
+          <td>R$3250,00</td>
+          <td>R$300,00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</body>
+
+</html>
