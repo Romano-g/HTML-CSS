@@ -7,7 +7,7 @@
   "workbench.colorTheme": "2077",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code",
-  "terminal.integrated.fontFamily": "",
+  "terminal.integrated.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.wordWrapColumn": 60,
   "editor.wordWrap": "wordWrapColumn",
